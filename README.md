@@ -9,7 +9,20 @@ We have developed a SMT-based tool that automates CISE logic, and verified sever
 
 The developer writes the properties of her program as Java annotations.
 
-See https://syncfree.lip6.fr/index.php/2-uncategorised/51-cise for me details.
+See [here](https://syncfree.lip6.fr/index.php/2-uncategorised/51-cise) for more details.
+
+## Get started
+
+Main dependencies:
+ - Z3 4.4.0 (as in `tools/`)
+ - Antlr 4.5.1 (as in `tools`)
+
+To build
+
+	mvn build
+
+To run the examples and use the Z3's JNI integration, set the `LD_LIBRARY_PATH` environment variable
+to `lib/` (with its absolute path).
  
 
 ## Main Publications

@@ -1,0 +1,7 @@
+/target/
+.classpath
+.gradle/
+.project
+.settings/
+src/main/java/z3fol/antlr/.gradle/
+*.log

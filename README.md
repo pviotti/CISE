@@ -14,12 +14,16 @@ See [here](https://syncfree.lip6.fr/index.php/2-uncategorised/51-cise) for more 
 ## Get started
 
 Main dependencies:
- - Z3 4.4.0 (as in `tools/`)
+ - Z3 4.4.0 (as in `tools`)
  - Antlr 4.5.1 (as in `tools`)
 
-To build
+To build:
 
-	mvn build
+	mvn package 
+
+To create an Eclipse project:
+
+	mvn eclipse:eclipse
 
 To run the examples and use the Z3's JNI integration, set the `LD_LIBRARY_PATH` environment variable
 to `lib/` (with its absolute path).

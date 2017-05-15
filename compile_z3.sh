@@ -11,3 +11,4 @@ pushd build
 make all
 cp com.microsoft.z3.jar $PDIR/lib
 cp libz3java.* $PDIR/lib
+cp libz3.* $PDIR/lib
